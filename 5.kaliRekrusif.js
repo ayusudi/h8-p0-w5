@@ -10,12 +10,10 @@ function hasilKaliRekursif(angka) {
 
 function kaliTerusRekursif(angka) {
   var nilai = hasilKaliRekursif(angka)  
-  //console.log(nilai)
   if (nilai<10){
     return nilai
   }
   else {
-    // console.log(nilai)
     return kaliTerusRekursif(nilai)
   }
 }
